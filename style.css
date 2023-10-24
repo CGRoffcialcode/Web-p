@@ -94,13 +94,13 @@ button:hover {
 
 @media (min-width: 600px) {
 body {
-    background-color: rgb(233, 255, 134);
+    background-color: rgb(64, 0, 255);
 }
 }
 
 @media (max-width: 599px) {
     body {
-        background-color: rgb(118, 255, 164);
+        background-color: rgb(75, 75, 75);
     }
 
 
