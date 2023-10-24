@@ -1,0 +1,188 @@
+
+
+div1 {
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: bold;
+    font-family: system-ui;
+    font-size: large;
+    
+}
+
+div2 {
+   
+    color: rgb(255, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: bold;
+    font-family: system-ui;
+    
+}
+
+
+
+
+div3 {
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: bold;
+    font-family: system-ui;
+    font-size: large;
+
+}
+
+
+
+table {
+    border: 5px solid goldenrod;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid gold;
+    padding: 5px;
+}
+
+#link{
+    color: rgb(255, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+
+}
+
+
+
+
+a {
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+a [href="htttps://youtube.com/@CGRcodeS="]{
+    color: black;
+    font-weight: bolder;
+
+}
+
+form{
+    color: rgb(255, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+
+}
+button{
+    color: rgb(65, 25, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    width: 200px;
+    height: 50px;
+    background-color: chocolate;
+    font-size: 10px;
+    align-self: center;
+
+}
+
+button:hover {
+    background-color: rgb(65, 25, 0);
+    text-shadow: 100%;
+}
+
+@media (min-width: 600px) {
+body {
+    background-color: rgb(233, 255, 134);
+}
+}
+
+@media (max-width: 599px) {
+    body {
+        background-color: rgb(118, 255, 164);
+    }
+
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.container > div {
+    background-color: red;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+
+ 
+
+}
+
+.container > div1 {
+    background-color: rgb(0, 4, 255);
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+
+ 
+
+}
+
+.container > div2 {
+    background-color: rgb(157, 255, 0);
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+
+ 
+
+}
+
+.container > div3 {
+    background-color: rgba(0, 0, 0, 0.404);
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+
+ 
+
+}
+
+#grid {
+    background-color: green ;
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: 200px, 200px, auto;
+
+
+}
+
+.grid-item {
+    background-color: aqua;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+ol{
+    font-size: 18px;
+    color: red;
+
+}
+
+ul{
+    font-size:14px;
+    color: red;
+}
+
+

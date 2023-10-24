@@ -1,0 +1,52 @@
+ul {
+  font-size: 14px;
+  color: black;
+  font-weight: 10px;
+  font-family: "Courier New', Courier, monospace"; }
+
+ol {
+  font-size: 20px;
+  color: black;
+  font-weight: 10px;
+  font-family: "Courier New', Courier, monospace"; }
+
+.sure {
+  color: black;
+  font-weight: bolder;
+  font-family: "Courier New', Courier, monospace";
+  font-size: 20px; }
+
+.hBeta {
+  color: black;
+  font-family: "Courier New', Courier, monospace";
+  font-size: 20px;
+  font-weight: 10px; }
+
+div {
+  font-size: 20px;
+  font-family: "Courier New', Courier, monospace";
+  font-weight: 10px; }
+  div p {
+    color: #73ff00; }
+  div ul {
+    color: #73ff00; }
+  div ol {
+    color: blue; }
+
+.success, .sad, .angry {
+  font-family: sans-serif;
+  font-size: 18px;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px; }
+
+.success {
+  background-color: green; }
+
+.sad {
+  background-color: blue; }
+
+.angry {
+  background-color: red; }
+
+/*# sourceMappingURL=style1.css.map */
